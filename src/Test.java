@@ -46,5 +46,12 @@ public class Test {
 		LocalDateTime dateTime = LocalDateTime.of(date, time).minusDays(1)
 				.minusHours(10).minusSeconds(30);
 		System.out.println(dateTime);
+		System.out.println("");
+
+		LocalDate localdate = LocalDate.of(2020, Month.JANUARY, 20);
+		System.out.println(localdate.getDayOfWeek());
+		System.out.println(localdate.getMonth());
+		System.out.println(localdate.getYear());
+		System.out.println(localdate.getDayOfYear());
 	}
 }
